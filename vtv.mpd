@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<MPD profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2011-03-01T00:00:05Z" minimumUpdatePeriod="PT4.0S" minBufferTime="PT4.0S" publishTime="2023-06-21T02:23:52.845Z" timeShiftBufferDepth="PT2H" suggestedPresentationDelay="PT13.0S" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
+<MPD profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2011-03-01T00:00:05Z" minimumUpdatePeriod="PT4.0S" minBufferTime="PT4.0S" publishTime="2023-06-21T02:26:45.052Z" timeShiftBufferDepth="PT2H" suggestedPresentationDelay="PT13.0S" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
 	<Period start="PT0S" id="1">
 		<AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true" par="16:9">
 			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"></ContentProtection>
@@ -7,7 +7,7 @@
 			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"><cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAMnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABISELsOyqauYjNhl8ZNQSnGoJ0=</cenc:pssh></ContentProtection>
 			<SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$/Segment-$Time$.m4v" initialization="$RepresentationID$/1687242335786_init.m4i">
 				<SegmentTimeline>
-					<S t="3883694295610606" d="40040000" r="109" />
+					<S t="3883696057370606" d="40040000" r="65" />
 					<S t="3883698700010606" d="20020000" />
 					<S t="3883698720030606" d="40040000" r="498" />
 					<S t="3883718699990606" d="20020000" />
@@ -15,7 +15,7 @@
 					<S t="3883738740010606" d="20020000" />
 					<S t="3883738760030606" d="40040000" r="498" />
 					<S t="3883758739990606" d="20020000" />
-					<S t="3883758760010606" d="40040000" r="188" />
+					<S t="3883758760010606" d="40040000" r="231" />
 				</SegmentTimeline>
 			</SegmentTemplate>
 			<Representation width="256" height="144" frameRate="30000/1001" codecs="avc1.42e00d" scanType="progressive" sar="1:1" id="stream_01" bandwidth="310000" />
@@ -31,19 +31,7 @@
 			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"><cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAMnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABISELsOyqauYjNhl8ZNQSnGoJ0=</cenc:pssh></ContentProtection>
 			<SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$/Segment-$Time$.m4a" initialization="$RepresentationID$/1687242335786_init.m4i">
 				<SegmentTimeline>
-					<S t="3883694296263940" d="40320000" r="3" />
-					<S t="3883694457543940" d="38400000" />
-					<S t="3883694495943940" d="40320000" r="5" />
-					<S t="3883694737863940" d="38400000" />
-					<S t="3883694776263940" d="40320000" r="5" />
-					<S t="3883695018183940" d="38400000" />
-					<S t="3883695056583940" d="40320000" r="5" />
-					<S t="3883695298503940" d="38400000" />
-					<S t="3883695336903940" d="40320000" r="4" />
-					<S t="3883695538503940" d="38400000" />
-					<S t="3883695576903940" d="40320000" r="5" />
-					<S t="3883695818823940" d="38400000" />
-					<S t="3883695857223940" d="40320000" r="5" />
+					<S t="3883696058823940" d="40320000" />
 					<S t="3883696099143940" d="38400000" />
 					<S t="3883696137543940" d="40320000" r="5" />
 					<S t="3883696379463940" d="38400000" />
@@ -562,7 +550,19 @@
 					<S t="3883765848903940" d="38400000" />
 					<S t="3883765887303940" d="40320000" r="5" />
 					<S t="3883766129223940" d="38400000" />
-					<S t="3883766167623940" d="40320000" r="3" />
+					<S t="3883766167623940" d="40320000" r="5" />
+					<S t="3883766409543940" d="38400000" />
+					<S t="3883766447943940" d="40320000" r="4" />
+					<S t="3883766649543940" d="38400000" />
+					<S t="3883766687943940" d="40320000" r="5" />
+					<S t="3883766929863940" d="38400000" />
+					<S t="3883766968263940" d="40320000" r="5" />
+					<S t="3883767210183940" d="38400000" />
+					<S t="3883767248583940" d="40320000" r="5" />
+					<S t="3883767490503940" d="38400000" />
+					<S t="3883767528903940" d="40320000" r="5" />
+					<S t="3883767770823940" d="38400000" />
+					<S t="3883767809223940" d="40320000" r="5" />
 				</SegmentTimeline>
 			</SegmentTemplate>
 			<Representation audioSamplingRate="48000" codecs="mp4a.40.2" id="stream_08" bandwidth="72000" />
@@ -573,19 +573,7 @@
 			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"><cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAMnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABISELsOyqauYjNhl8ZNQSnGoJ0=</cenc:pssh></ContentProtection>
 			<SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$/Segment-$Time$.m4a" initialization="$RepresentationID$/1687242335786_init.m4i">
 				<SegmentTimeline>
-					<S t="3883694296263940" d="40320000" r="3" />
-					<S t="3883694457543940" d="38400000" />
-					<S t="3883694495943940" d="40320000" r="5" />
-					<S t="3883694737863940" d="38400000" />
-					<S t="3883694776263940" d="40320000" r="5" />
-					<S t="3883695018183940" d="38400000" />
-					<S t="3883695056583940" d="40320000" r="5" />
-					<S t="3883695298503940" d="38400000" />
-					<S t="3883695336903940" d="40320000" r="4" />
-					<S t="3883695538503940" d="38400000" />
-					<S t="3883695576903940" d="40320000" r="5" />
-					<S t="3883695818823940" d="38400000" />
-					<S t="3883695857223940" d="40320000" r="5" />
+					<S t="3883696058823940" d="40320000" />
 					<S t="3883696099143940" d="38400000" />
 					<S t="3883696137543940" d="40320000" r="5" />
 					<S t="3883696379463940" d="38400000" />
@@ -1104,7 +1092,19 @@
 					<S t="3883765848903940" d="38400000" />
 					<S t="3883765887303940" d="40320000" r="5" />
 					<S t="3883766129223940" d="38400000" />
-					<S t="3883766167623940" d="40320000" r="3" />
+					<S t="3883766167623940" d="40320000" r="5" />
+					<S t="3883766409543940" d="38400000" />
+					<S t="3883766447943940" d="40320000" r="4" />
+					<S t="3883766649543940" d="38400000" />
+					<S t="3883766687943940" d="40320000" r="5" />
+					<S t="3883766929863940" d="38400000" />
+					<S t="3883766968263940" d="40320000" r="5" />
+					<S t="3883767210183940" d="38400000" />
+					<S t="3883767248583940" d="40320000" r="5" />
+					<S t="3883767490503940" d="38400000" />
+					<S t="3883767528903940" d="40320000" r="5" />
+					<S t="3883767770823940" d="38400000" />
+					<S t="3883767809223940" d="40320000" r="5" />
 				</SegmentTimeline>
 			</SegmentTemplate>
 			<Representation audioSamplingRate="48000" codecs="mp4a.40.2" id="stream_07" bandwidth="72000" />
